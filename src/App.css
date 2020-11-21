@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+--sidebar-flex:1.5;
+--condiv-flex:6;
+--fontsize-p:1.2rem;
+--fontsize-nav:1.6rem;
+--typing-font:3rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*
+{
+margin:0;
+padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body
+{
+font-family: 'Raleway';
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App
+{
+display: flex;
+width: 100vw;
+min-height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .condiv class is for the right side content container*/
+.condiv
+{
+padding: 100px ;
+background-color: #f4f5f9;
+flex:var(--condiv-flex);
 }
