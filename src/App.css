@@ -28,3 +28,61 @@ padding: 100px ;
 background-color: #f4f5f9;
 flex:var(--condiv-flex);
 }
+
+/*Style navbar*/
+nav
+{
+padding:60px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+background: rgb(238,103,143);
+background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+}
+/* item*/
+nav ul
+{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+}
+nav ul li
+{
+  margin:40px;
+}
+/* css for active class */
+.active
+{
+font-weight: bolder;
+}
+
+/*Social*/
+.social
+{
+margin-top: 20px;
+display: flex;
+bottom: 60px;
+}
+.social i
+{
+padding-right: 30px;
+font-size: 25px;
+color: #2b67a3;
+}
+.social i:hover
+{
+color: #8d6464;
+}
+/* About */
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p
+{
+margin: 10px;
+}

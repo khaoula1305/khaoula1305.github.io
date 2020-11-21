@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Contact from './contents/Contact';
+import Skills from './contents/Skills';
+import Home from './contents/Home';
+import
+{
+BrowserRouter as Router,
+Route,
+} from "react-router-dom";
+import About from './contents/About';
+import Education from './contents/Education';
+import resumeDate from './resumeData';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar social={resumeDate.socialLinks} />
+      <Route exact path="/"><Home resumeDate={resumeDate} /></Route>
+      <Route path="/about">
+        <About aboutMe={resumeDate.aboutme} ></About>
+</Route>
+<Route path="/education">
+  <Education educations={resumeDate.education} />
+  </Route>
+  <Route path="/skills">
+<Skills skills={resumeDate.skills}/>
+</Route>
+<Route path="/contact">
+<Contact contact={resumeDate.socialLinks} />
+</Route>
+
     </div>
+    </Router>
   );
 }
 
