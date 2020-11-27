@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
+import ContactForm from './ContactForm';
 class Contact extends Component {
 render() {
 return (
 <div className="condiv">
 <h1 className="subtopic">Contact Me</h1>
-<h3>Email  :   khaoulabenchari</h3>
-<h3>something else</h3>
-<Social />
+<p>
+                        Please feel free to contact me for any constructive comment or suggestion or collaboration. </p>
+					
+<ContactForm/>
+
+
 </div>
 )
 }

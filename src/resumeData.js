@@ -18,7 +18,7 @@ let resumeData = {
     "website": "https://khaoula1305.github.io",
     "education": [{
             "UniversityName": "EHTP",
-            "specialization": "Softawer engineering",
+            "specialization": "Software engineering",
             "MonthOfPassing": "Aug",
             "YearOfPassing": "2022",
             "Achievements": "Some Achievements"

@@ -34,8 +34,8 @@ nav
 {
 padding:60px 30px 0px 30px ;
 flex:var(--sidebar-flex);
-background: rgb(238,103,143);
-background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+background: rgb(250, 248, 249);
+background: linear-gradient(180deg, rgb(43, 36, 38) 50%, rgb(13, 3, 44) 80%);
 }
 /* item*/
 nav ul
@@ -62,16 +62,18 @@ font-weight: bolder;
 margin-top: 20px;
 display: flex;
 bottom: 60px;
+z-index: -1;
+
 }
 .social i
 {
 padding-right: 30px;
 font-size: 25px;
-color: #2b67a3;
+color: #0d0f11;
 }
 .social i:hover
 {
-color: #8d6464;
+color: #af1717;
 }
 /* About */
 .subtopic

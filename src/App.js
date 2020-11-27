@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Contact from './contents/Contact';
+import Contact from './components/contact/Contact';
 import Skills from './contents/Skills';
 import Home from './contents/Home';
+import Projects from './contents/projects/Projects'
 import
 {
 BrowserRouter as Router,
@@ -30,6 +31,9 @@ function App() {
 </Route>
 <Route path="/contact">
 <Contact contact={resumeDate.socialLinks} />
+</Route>
+<Route path="/projects">
+  <Projects/>
 </Route>
 
     </div>
