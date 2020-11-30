@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Item from "./Item";
 
 class Education extends Component {
 
@@ -8,10 +9,9 @@ class Education extends Component {
         return ( 
             <div className="condiv">
                 <h1>My studies</h1>
-                {educations.map( e => (<ul key={e}>
-                    <li>{e.UniversityName}</li>
-                    <li>{e.specialization}</li>
-                    </ul>)
+                {educations.map( school => (
+                    <Item key={school.id} school={school}/>
+                    )
                     )}
             </div>
          );
