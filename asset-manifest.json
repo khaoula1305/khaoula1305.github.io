@@ -1,27 +1,39 @@
 {
   "files": {
     "main.css": "/static/css/main.898bf73b.chunk.css",
-    "main.js": "/static/js/main.0b371b2a.chunk.js",
-    "main.js.map": "/static/js/main.0b371b2a.chunk.js.map",
+    "main.js": "/static/js/main.411f6f1c.chunk.js",
+    "main.js.map": "/static/js/main.411f6f1c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f29f3c2f.js",
     "runtime-main.js.map": "/static/js/runtime-main.f29f3c2f.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.afb60627.chunk.js": "/static/js/2.afb60627.chunk.js",
-    "static/js/2.afb60627.chunk.js.map": "/static/js/2.afb60627.chunk.js.map",
+    "static/js/2.7e4f74e3.chunk.js": "/static/js/2.7e4f74e3.chunk.js",
+    "static/js/2.7e4f74e3.chunk.js.map": "/static/js/2.7e4f74e3.chunk.js.map",
     "static/js/3.55266b98.chunk.js": "/static/js/3.55266b98.chunk.js",
     "static/js/3.55266b98.chunk.js.map": "/static/js/3.55266b98.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.898bf73b.chunk.css.map": "/static/css/main.898bf73b.chunk.css.map",
-    "static/js/2.afb60627.chunk.js.LICENSE.txt": "/static/js/2.afb60627.chunk.js.LICENSE.txt",
+    "static/js/2.7e4f74e3.chunk.js.LICENSE.txt": "/static/js/2.7e4f74e3.chunk.js.LICENSE.txt",
     "static/media/Benchari.dbd00eb9.png": "/static/media/Benchari.dbd00eb9.png",
+    "static/media/expressjs.386b0408.svg": "/static/media/expressjs.386b0408.svg",
+    "static/media/firebase.e684013a.svg": "/static/media/firebase.e684013a.svg",
+    "static/media/git.b84e9605.svg": "/static/media/git.b84e9605.svg",
+    "static/media/html_and_css.14c3065e.svg": "/static/media/html_and_css.14c3065e.svg",
+    "static/media/java.7f7b1d06.png": "/static/media/java.7f7b1d06.png",
+    "static/media/javascript.acc4642f.svg": "/static/media/javascript.acc4642f.svg",
+    "static/media/mongodb.e4025ae2.svg": "/static/media/mongodb.e4025ae2.svg",
+    "static/media/mysql.2bc8ab8e.svg": "/static/media/mysql.2bc8ab8e.svg",
+    "static/media/node.4f4c2ba0.png": "/static/media/node.4f4c2ba0.png",
+    "static/media/php.2eb2596e.svg": "/static/media/php.2eb2596e.svg",
+    "static/media/python.063da199.svg": "/static/media/python.063da199.svg",
+    "static/media/redux.71eb13e2.svg": "/static/media/redux.71eb13e2.svg",
     "static/media/skills.9324dcca.jpg": "/static/media/skills.9324dcca.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f29f3c2f.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.afb60627.chunk.js",
+    "static/js/2.7e4f74e3.chunk.js",
     "static/css/main.898bf73b.chunk.css",
-    "static/js/main.0b371b2a.chunk.js"
+    "static/js/main.411f6f1c.chunk.js"
   ]
 }
