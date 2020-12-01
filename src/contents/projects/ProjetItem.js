@@ -1,28 +1,46 @@
 import React, { Component } from 'react';
 import "./project.css";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import img1 from "../../img/portfolio/SmartMind.png";
+import { GitHub, Launch} from "@material-ui/icons";
+import {  IconButton} from '@material-ui/core'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class ProjetItem extends Component {
     render() {
-        const {name, description, url, imgurl,date}=this.props.projet;
-        let sectionStyle = {
-            //backgroundImage: `url(${img1})`,
-            backgroundImage:"url("+ "https://f.hellowork.com/blogdumoderateur/2020/06/apple-macos-big-sur-10-1200x785.jpg"+")"
-        };
+        const {name, description, url, imgurl,date, languages,github}=this.props.projet;
         return (
-            <div className="box mybox" style={sectionStyle} >
-            <div className="date">
+<div className="box mybox" >
+            
+            <div>
+                <img src={imgurl}  alt="myPhoto"/>
+                <div className="date">
                 <h4>{date}</h4>
+            </div>
             </div>
             <div className="text">
                 <h2>{name}</h2>
                 <p>{description}</p>
             </div>
-            <div className="poster">
-                <GitHubIcon ></GitHubIcon>
+            <div>
+                {languages.map(item => <span key={item.id} className="badge badge-primary myspan">{item.skillname}</span> )}
             </div>
-        </div>);
+            <div className="myIcon">
+                <IconButton
+                    title="Launch App"
+                    aria-label="Launch Application"
+                    href={url}
+                >
+                    <Launch />
+                </IconButton>
+                <IconButton
+                    title="See Code"
+                    aria-label="Source Code On Github"
+                    href={github}
+                >
+                    <GitHub />
+                </IconButton>
+            </div>
+        </div>
+            );
     }
 }
  

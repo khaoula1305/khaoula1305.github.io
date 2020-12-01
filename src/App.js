@@ -1,44 +1,37 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+
 import Contact from './components/contact/Contact';
 import Skills from './contents/Skills';
 import Home from './contents/Home';
-import Projects from './contents/projects/Projects'
-import
-{
-BrowserRouter as Router,
-Route,
-} from "react-router-dom";
+import Projects from './contents/projects/Projects';
 import About from './contents/About';
-import Education from './contents/Education';
+import Education from './contents/educations/Education';
 import resumeDate from './resumeData';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <Router>
-    <div className="App">
-      <Navbar social={resumeDate.socialLinks} />
-      <Route exact path="/"><Home resumeDate={resumeDate} /></Route>
-      <Route path="/about">
-        <About aboutMe={resumeDate.aboutme} ></About>
-</Route>
-<Route path="/education">
+
+class App extends Component {
+  render(){
+return (
+     <div className="App container">    <React.Fragment>
+<Header/>
+<Home resumeDate={resumeDate} photo={resumeDate.MyPhoto}/>
+
+    <About aboutMe={resumeDate.aboutme} photo={resumeDate.MyPhoto}></About>
   <Education educations={resumeDate.education} />
-  </Route>
-  <Route path="/skills">
 <Skills skills={resumeDate.skills}/>
-</Route>
-<Route path="/contact">
+  <Projects projects={resumeDate.portfolio}/>
 <Contact contact={resumeDate.socialLinks} />
-</Route>
-<Route path="/projects">
-  <Projects/>
-</Route>
 
-    </div>
-    </Router>
+<Footer/>
+        </React.Fragment> </div>
+
+
   );
+  }
+  
 }
 
 export default App;

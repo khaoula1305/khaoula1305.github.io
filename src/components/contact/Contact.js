@@ -3,12 +3,13 @@ import ContactForm from './ContactForm';
 class Contact extends Component {
 render() {
 return (
-<div className="condiv">
-<h1 className="subtopic">Contact Me</h1>
-<p>
-                        Please feel free to contact me for any constructive comment or suggestion or collaboration. </p>
-					
-<ContactForm/>
+       <div className="section" id="contact" >
+                <h2 className="section-title">Contact Me</h2>
+
+                <div className=" bd-grid"> 
+                <p>Please feel free to contact me for any constructive comment or suggestion or collaboration. </p>
+				<ContactForm/>
+</div>
 
 
 </div>

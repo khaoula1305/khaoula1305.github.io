@@ -63,29 +63,76 @@ let resumeData = {
             "name": "Shara",
             "description": "Android application to help each other between people.",
             "url":"https://www.khaoula1305.github.io",
-            "imgurl": "images/portfolio/phone.jpg",
-            "date":"12/12/20"
+            "github":"https://github.com/khaoula1305/Shara",
+            "imgurl": "https://www.digital.sncf.com/sites/default/files/styles/large/public/application.png?itok=hpSZ4dD3",
+            "date":"12/12/20",
+                "languages":[
+                {"skillname": "Java"
+        },
+        {
+            "skillname": "Android"
+        },
+        {
+            "skillname": "Firebase"
+        }
+            ]
         },
         {
             "name": "Resume Website",
             "description": "My Portfolio containing a description about myself and my projects.",
             "url":"https://www.khaoula1305.github.io",
-            "imgurl": "images/portfolio/project.jpg",
-            "date":"In progress"
+            "github":"https://github.com/khaoula1305/khaoula1305.github.io",
+            "imgurl": "https://media.bitdegree.org/storage/media/images/2018/11/How-to-Create-A-Website-From-Scratch-The-Beginner%E2%80%99s-Guide.jpg",
+            "date":"In progress",
+            "languages":[
+                {"skillname": "HTML5"
+        },
+        {
+            "skillname": "CSS"
+        },
+        {
+            "skillname": "Reactjs"
+        }
+            ]
         },
         {
             "name": "IT incident management",
             "description": "",
-            "url":"https://www.khaoula1305.github.io",
-            "imgurl": "images/portfolio/project.jpg",
-            "date":"13/02/20"
+            "url":"https://khaoula1305.github.io/clientIncidInfo/",
+            "github":"https://github.com/khaoula1305/clientIncidInfo",
+            "imgurl": "https://cdn.lynda.com/course/518163/518163-637286201708124939-16x9.jpg",
+            "date":"13/02/20",
+            "languages":[
+                {"skillname": "HTML5"
+        },
+        {
+            "skillname": "CSS"
+        },
+        {
+            "skillname": "Angular"
+        },
+        {
+            "skillname":"Spring Boot"
+        }
+            ]
         },
         {
             "name": "SmartMind",
             "description": " E-Learning Web Apps",
             "url":"https://www.khaoula1305.github.io",
-            "imgurl": "img/portfolio/SmartMind.png",
-            "date":"13/02/20"
+            "imgurl": "https://i.ibb.co/vzb5bLx/Smart-Mind.png",
+            "github":"https://github.com/khaoula1305",
+            "date":"13/02/20",
+            "languages":[
+                {"skillname": "PHP"
+        },
+        {
+            "skillname": "Laravel"
+        },
+        {
+            "skillname": "PostgreSQL"
+        }
+            ]
         },
 
 

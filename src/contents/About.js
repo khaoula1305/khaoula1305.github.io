@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import profilepic from '../img/BenchariKhaoula.png';
-import '../css/main.css';
+import profilepic from '../img/Benchari.png';
 
 class About extends Component {
 	render() {
 		return (
-			<Header>
-				<section id="banner">
-					<div className="content">
-						<header>
-						<h1> Hi I'am Benchari Khaoula</h1>
-						</header>
-						<p>
-							I am a <strong>software engineer</strong>.
-							 I am actively looking for a graduation internship. I'm interested about JavaScript frameworks and Java frameworks, and i'm passionate about working on source code.
-						</p>
-						</div>
-					 <img src={profilepic} alt="me" className="profilepic"></img>
-				</section>
-			</Header>
+		  <div class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src={profilepic} alt="myPhoto"/>
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hi I'am Benchari Khaoula</h2>
+                        <p class="about__text">I am a software engineer. I am actively looking for a graduation internship. I'm interested about JavaScript frameworks and Java frameworks, and i'm passionate about working on source code.</p>           
+                    </div>                                   
+                </div>
+            </div>
 
 		)
 	}

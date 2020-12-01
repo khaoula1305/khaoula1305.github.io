@@ -1,22 +1,31 @@
 import React, { Component } from 'react';
-import profilepic from '../img/BenchariKhaoula.png';
 import Social from '../components/Social';
-import Header from '../components/Header';
+import profilepic from '../img/Benchari.png';
 
 class Home extends Component {
     render() {
         return (
-            <Header>
-                <div className="condiv home">
-                    <img src={profilepic} alt="me" className="profilepic"></img>
-                    <h1> Hi I'am Benchari Khaoula</h1>
-                    <p>Software engineer</p>
-                    <Social socials={this.props.socials} />
-                    <h6>
-                        Please feel free to contact me for any constructive comment or suggestion or collaboration </h6>
+    <React.Fragment>
+        <div  className="home bd-grid" id="home">
+<div className="home__data">
+                    <h3 className="home__title"> <span className="home__title-color">Benchari Khaoula</span><br/> 
+                    I'am a Software Engineer</h3>
+
+                    <a href="#contact" className="button">Contact</a>
                 </div>
-                </Header>
-        )
+
+                <div className="home__social">
+                   <Social/>
+                </div>
+
+                <div className="home__img">    
+                     <img src={profilepic} alt="myPhoto"/>
+                </div>
+        </div>
+        
+    
+    </React.Fragment>
+        );
     }
 }
 export default Home;
