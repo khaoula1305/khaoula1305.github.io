@@ -161,13 +161,17 @@ let resumeData = {
             "imgurl": "https://media.bitdegree.org/storage/media/images/2018/11/How-to-Create-A-Website-From-Scratch-The-Beginner%E2%80%99s-Guide.jpg",
             "date":"09/12/20",
             "languages":[
-                {"skillname": "HTML5"
+                
+        {
+            "skillname": "Reactjs"
+        },
+        {
+            "skillname": "Firebase"
+        },
+        {"skillname": "HTML5"
         },
         {
             "skillname": "CSS"
-        },
-        {
-            "skillname": "Reactjs"
         }
             ]
         },
@@ -179,17 +183,18 @@ let resumeData = {
             "imgurl": "https://cdn.lynda.com/course/518163/518163-637286201708124939-16x9.jpg",
             "date":"In Progress",
             "languages":[
-                {"skillname": "HTML5"
-        },
-        {
-            "skillname": "CSS"
-        },
+             
         {
             "skillname": "Angular"
         },
         {
             "skillname":"Spring Boot"
-        }
+        },
+           {"skillname": "HTML5"
+        },
+        {
+            "skillname": "CSS"
+        },
             ]
         },
         {

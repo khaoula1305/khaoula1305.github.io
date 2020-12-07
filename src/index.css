@@ -214,9 +214,9 @@ img{
 }
 .home__img {
   position: absolute;
-  margin-top: -10px;
-  right: 0;
-  bottom: 0;
+  right: 20px;
+   z-index: -1;
+  top:200px;
   width: 295px;
   border-radius: 50%;
   height: 300px;

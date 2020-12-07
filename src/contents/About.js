@@ -14,7 +14,7 @@ class About extends Component {
                     
                     <div>
                         <h2 class="about__subtitle">Hi I'am Benchari Khaoula</h2>
-                        <p class="about__text">I am a software engineer. I am actively looking for a graduation internship. I'm interested about JavaScript frameworks and Java frameworks, and i'm passionate about working on source code.</p>           
+                        <p class="about__text">I am a software engineer. I am actively looking for a graduation internship. I'm interested about JavaScript frameworks and Java frameworks, and i'm passionate about and i'm passionate about contributing to open source projects.</p>           
                     </div>                                   
                 </div>
             </div>

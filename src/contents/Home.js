@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Social from '../components/Social';
-import profilepic from '../img/Benchari.png';
+
+import profilepic from '../img/MYJAVA.png';
 
 class Home extends Component {
     render() {
@@ -12,7 +13,9 @@ class Home extends Component {
                     I'am a Software Engineer</h3>
                     <a href="#contact" className="button">Contact</a>
                 </div>
-
+                 <div class="home__img">
+                        <img src={profilepic} alt="myPhoto"/>
+                    </div>
                 <div className="home__social">
                    <Social/>
                 </div>
