@@ -365,6 +365,8 @@ img{
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  width: auto;
+
 }
 .footer__title{
   font-size: 2rem;

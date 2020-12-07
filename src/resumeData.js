@@ -141,7 +141,7 @@ let resumeData = {
             "url":"https://www.khaoula1305.github.io",
             "github":"https://github.com/khaoula1305/Shara",
             "imgurl": "https://www.digital.sncf.com/sites/default/files/styles/large/public/application.png?itok=hpSZ4dD3",
-            "date":"12/12/20",
+            "date":"12/06/20",
                 "languages":[
                 {"skillname": "Java"
         },
@@ -159,7 +159,7 @@ let resumeData = {
             "url":"https://www.khaoula1305.github.io",
             "github":"https://github.com/khaoula1305/khaoula1305.github.io",
             "imgurl": "https://media.bitdegree.org/storage/media/images/2018/11/How-to-Create-A-Website-From-Scratch-The-Beginner%E2%80%99s-Guide.jpg",
-            "date":"In progress",
+            "date":"09/12/20",
             "languages":[
                 {"skillname": "HTML5"
         },
@@ -177,7 +177,7 @@ let resumeData = {
             "url":"https://khaoula1305.github.io/clientIncidInfo/",
             "github":"https://github.com/khaoula1305/clientIncidInfo",
             "imgurl": "https://cdn.lynda.com/course/518163/518163-637286201708124939-16x9.jpg",
-            "date":"13/02/20",
+            "date":"In Progress",
             "languages":[
                 {"skillname": "HTML5"
         },

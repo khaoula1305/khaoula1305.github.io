@@ -1,22 +1,44 @@
-import React from "react";
 import { Typography } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 //import { Element } from "react-scroll";
 import "./contact.css";
 
+import React, { useState, useEffect } from "react";
+import { db } from "../../firebase";
+
+
+
 export default function ContactForm() {
-  const handleSubmit = e => {
-    e.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-    const resetForm = () => {
-      document.getElementById("contact-form").reset();
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const [loader, setLoader] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoader(true);
+
+        db.collection("contacts")
+            .add({
+                name: name,
+                email: email,
+                message: message,
+            })
+            .then(() => {
+                setLoader(false);
+                alert("Your message has been submitted👍");
+            })
+            .catch((error) => {
+                alert(error.message);
+                setLoader(false);
+            });
+
+        setName("");
+        setEmail("");
+        setMessage("");
     };
-
-
-  };
   return (
     <React.Fragment>
       <div
@@ -27,7 +49,7 @@ export default function ContactForm() {
         }}
       >
         <form
-          onSubmit={e => handleSubmit(e)}
+          onSubmit={handleSubmit}
           className="contact-form"
           id="contact-form"
           style={{
@@ -43,20 +65,23 @@ export default function ContactForm() {
             type="text"
             margin="normal"
             variant="outlined"
-            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             placeholder="Enter your name"
           />
           <TextField
             label="Email"
             type="email"
-            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             margin="normal"
             variant="outlined"
             placeholder="Enter your email"
           />
           <TextField
             label="Message"
-            id="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             multiline
             margin="normal"
             variant="outlined"
