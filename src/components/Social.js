@@ -31,19 +31,12 @@ return (
 <div className="social">
 <FacebookIcon fontSize='large'onClick={()=>{window.location.href ='https://www.facebook.com/khaoula1305'}} ></FacebookIcon>
 <LinkedInIcon fontSize='large' onClick={()=>{window.location.href ='https://Linkedin.com/in/khaoula1305'}}/>
-
-
-{/*
-<a href="https://codepen.io/khaoula1305" ></a>
-  
-    <GitHubIcon fontSize='large' onClick={ () => { handlePageChange('github');}}
-                className={classes.clickableIcon}/>
-*/}
 <WhatsAppIcon fontSize='large' />
 <EmailIcon fontSize='large' />
-<a href="https://Instagram.com/khaoula1305" > </a>
-
-<a href="https://medium.com/khaoula1305" > </a>
+<GitHubIcon fontSize='large' onClick={()=>{window.location.href ='https://github.com/khaoula1305'}}/>
+                    {
+                    /*className={classes.clickableIcon*/
+                }
 </div>
 )
 }
