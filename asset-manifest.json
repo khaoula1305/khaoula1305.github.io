@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e59315f9.chunk.css",
-    "main.js": "/static/js/main.d35ad927.chunk.js",
-    "main.js.map": "/static/js/main.d35ad927.chunk.js.map",
+    "main.css": "/static/css/main.12b1adc5.chunk.css",
+    "main.js": "/static/js/main.c4659fbd.chunk.js",
+    "main.js.map": "/static/js/main.c4659fbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.60870993.js",
     "runtime-main.js.map": "/static/js/runtime-main.60870993.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
@@ -12,9 +12,10 @@
     "static/js/3.ad01397a.chunk.js.map": "/static/js/3.ad01397a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.e59315f9.chunk.css.map": "/static/css/main.e59315f9.chunk.css.map",
+    "static/css/main.12b1adc5.chunk.css.map": "/static/css/main.12b1adc5.chunk.css.map",
     "static/js/2.c057ed4b.chunk.js.LICENSE.txt": "/static/js/2.c057ed4b.chunk.js.LICENSE.txt",
     "static/media/Benchari.dbd00eb9.png": "/static/media/Benchari.dbd00eb9.png",
+    "static/media/MYJAVA.069fd3ac.png": "/static/media/MYJAVA.069fd3ac.png",
     "static/media/expressjs.386b0408.svg": "/static/media/expressjs.386b0408.svg",
     "static/media/firebase.e684013a.svg": "/static/media/firebase.e684013a.svg",
     "static/media/git.b84e9605.svg": "/static/media/git.b84e9605.svg",
@@ -33,7 +34,7 @@
     "static/js/runtime-main.60870993.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.c057ed4b.chunk.js",
-    "static/css/main.e59315f9.chunk.css",
-    "static/js/main.d35ad927.chunk.js"
+    "static/css/main.12b1adc5.chunk.css",
+    "static/js/main.c4659fbd.chunk.js"
   ]
 }
